@@ -12,19 +12,19 @@ body{
     background-color: rgba(0, 0, 0, 0.178);
 }
 
-nav.banner{
+nav#home{
     margin-top: 3%;
     position: relative;
     line-height: 5rem;
 }
 
-nav.banner img{
+nav#home img{
     width: 100%;
     max-height: 605px;
     /* height: 700px; */
 }
 
-nav.banner section.hero{
+nav#home section.hero{
     position: absolute;
     top: 15%;
     right: 10%;
@@ -32,17 +32,17 @@ nav.banner section.hero{
     font-family: 'Archivo Black', sans-serif;
     font-weight: bold;
 }
-nav.banner section.hero h1{
+nav#home section.hero h1{
     color: beige;
     background-color: rgba(137, 43, 226, 0.534);
     padding-right: 0.3em;
     padding-left: 0.3em;
 }
 
-nav.banner section.hero span{
+nav#home section.hero span{
     color: black;
 }
-nav.banner section.hero i{
+nav#home section.hero i{
     /* border: 1px solid white; */
     float: right;
     margin: 0.5vw;
