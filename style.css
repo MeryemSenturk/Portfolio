@@ -57,10 +57,18 @@ nav#home section.hero i{
     top: 0;
     left: 0;
  }
-header.sticky h2{
-    color: black;
+ header.sticky img{
+    background-color: black;
+    border-radius: 10px;
     position: absolute;
-    left: 5%;
+    left: 2%;
+    top: 17%;
+    bottom: 10%;
+ }
+header.sticky h2{
+    color: white;
+    position: absolute;
+    left: 7%;
     top: 10%;
     bottom: 10%;
     font-size: 4vw;
@@ -75,7 +83,8 @@ header.sticky section.links{
    
 }
 header.sticky section a{
-    padding: 5;
+    padding: .3em .5em;
+    margin: .5em;
     font-size: 1.2vw;
     border: 1px solid black;
     border-radius: 5px;
